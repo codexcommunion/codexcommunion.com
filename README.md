@@ -81,6 +81,18 @@ Not using SSH:
 GIT_USER=<Your GitHub username> npm run deploy
 ```
 
+For Windows PowerShell:
+
+```powershell
+$env:USE_SSH="true"; npm run deploy
+```
+
+Or without SSH:
+
+```powershell
+$env:GIT_USER="<Your GitHub username>"; npm run deploy
+```
+
 This command is a convenient way to build the website and push to the `gh-pages` branch for GitHub Pages hosting.
 
 ## 📁 Project Structure
